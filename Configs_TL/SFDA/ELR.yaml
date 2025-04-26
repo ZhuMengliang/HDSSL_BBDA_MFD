@@ -1,0 +1,5 @@
+name: 'ELR'
+K: 5
+KK: 55
+beta: 0.6
+lamb: 3.0

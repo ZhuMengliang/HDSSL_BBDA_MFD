@@ -1,0 +1,4 @@
+name: 'JAN'
+jan: 1.0
+linear: False
+adversarial: False

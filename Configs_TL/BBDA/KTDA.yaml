@@ -1,0 +1,5 @@
+name: 'KTDA'
+beta: 5
+ema: 0.99 # 0.99
+bnm: 0.1 #0.1
+topk: 0

@@ -1,0 +1,9 @@
+name: 'PU'
+TL_task: [0,1,2]
+input_format: 'amp0'
+scale_norm: False
+instance_norm: True
+seq_len: 1024
+root_path: './Dataset/PU'
+class_num: 11
+

@@ -1,0 +1,7 @@
+batch_size: 64
+src_epoch: 50
+tar_epoch: 20
+cls_function: 'LS'
+drop_last: False
+num_workers: 0
+seed_list: [0, 1, 2, 3, 4]

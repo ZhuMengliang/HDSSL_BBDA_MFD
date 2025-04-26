@@ -1,0 +1,31 @@
+defaults:
+  - _self_ # defaults.yaml自身的配置参数
+  - Dataset: CWRU
+  - Model_src: ResNet #TSLANet
+  - Model_tar: ResNet
+  - Opt_src: default
+  - Opt_tar: default
+  - Training: default 
+  - BBDA: HDSSL #HDSSL KTDA DINE
+  - UDA: JAN
+  - SFDA: SFDA2
+  - MSBBDA: default
+  - Wandb: default
+  - override hydra/hydra_logging: disabled
+  #- override hydra/job_logging: disabled
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+logging: True
+wandb_log: True
+use_gpu: True
+gpu_id: 0
+gpu_type: 'cuda'
+use_multi_gpu: False
+devices: '0,1,2,3'
+
+save_Src_model: True
+Src_Model_Path: './Src_Model'

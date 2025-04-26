@@ -1,0 +1,6 @@
+name: 'CDAN'
+cdan: 1.0
+entropy: False
+randomized: False
+randomized_dim: 1024
+adv_warmup: False

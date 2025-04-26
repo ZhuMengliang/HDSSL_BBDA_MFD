@@ -1,0 +1,5 @@
+name: 'ResNet'
+blocks: [2,2,2,2] # for ResNet
+bottleneck: True
+bottleneck_dim: 128
+bottleneck_type: 1

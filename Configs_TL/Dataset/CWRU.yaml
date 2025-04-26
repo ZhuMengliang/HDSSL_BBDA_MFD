@@ -1,0 +1,9 @@
+name: 'CWRU'
+TL_task: [0,1,2,3]
+input_format: 'amp0'
+scale_norm: False
+instance_norm: True
+seq_len: 1024
+root_path: './Dataset/CWRU'
+class_num: 10
+

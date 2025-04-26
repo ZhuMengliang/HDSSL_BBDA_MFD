@@ -1,0 +1,9 @@
+name: 'HDSSL'
+balanced: True
+temp: 1
+dpst: 1.0
+hna: 1.0
+dkd_ema: 0.8
+warm_up_epoch: 5
+neighborhood: 3
+

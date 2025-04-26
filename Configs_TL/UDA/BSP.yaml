@@ -1,0 +1,4 @@
+name: "BSP"
+dann: 1.0
+bsp: 2e-4
+adv_warmup: False

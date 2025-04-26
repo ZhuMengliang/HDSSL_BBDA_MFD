@@ -1,0 +1,5 @@
+name: 'BMD'
+alpha: 2
+beta: 0.5
+topk_seg: 3
+multi_cent_num: 4

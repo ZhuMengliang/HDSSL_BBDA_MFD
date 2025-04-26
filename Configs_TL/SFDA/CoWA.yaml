@@ -1,0 +1,3 @@
+name: 'CoWA'
+warmup_epoch: 0
+alpha: 0.2

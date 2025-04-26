@@ -1,0 +1,5 @@
+name: 'DINE'
+topk: 1
+mix: 1.0
+ema: 0.6
+FT_epoch: 5
